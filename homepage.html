@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>나의 포트폴리오</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+        var audio = document.getElementById("myaudio");
+        audio.play();
+    </script>
+</head>
+<body>
+    <!-- 헤더파트---------------------------------------------------- -->
+    <header>
+        <h1>이찬의 포트폴리오</h1>
+        <nav>
+            <ul>
+                <li><a href="#start">홈</a></li>
+                <li><a href="#resume">이력서</a></li>
+                <li><a href="#skills">보유기술</a></li>
+                <li><a href="#projects">프로젝트</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- 메인파트---------------------------------------------------- -->
+    <div id="start"></div>
+    <main>
+        <audio src="bgm.mp3" id="myAudio" autoplay controls loop playsinline></audio>
+        <section>
+            <br><br><br><img src="image/image.png" alt="개발자이미지" height="70px" width="70px">
+            <br><br>
+            <h1 style="font-size: 50px;">이찬 </h1>
+            <hr>
+            <br>
+            <ul>
+                <li>이메일 : ichan0318@naver.com</li>
+                <li>전화번호 : 010-5098-0318</li>
+                <li>github: <a class="check" href="https://github.com/Proverbs13" target="_blank">Proverbs13</a></li>
+            </ul>
+            <br><br>
+            <div>
+                <img src="image/LEECHAN.jpg" alt="이찬 증명사진" style="float: left; " height="200px" width="150px">
+                <span</span><br>
+                <span</span><br><span style=" margin-left: 20px;">안녕하세요! 저는 개발자 지망생 이찬입니다.</span><br>
+                <span</span><br><span style=" margin-left: 20px;"> 제 포트폴리오를 방문해 주셔서 감사합니다. </span><br>
+                <span</span><br><span style=" margin-left: 20px;"> 해당 페이지는 저를 소개하고 진행한 프로젝트을 공유하고 있습니다.</span>
+            </div>
+        </section>
+        <div style="clear:both"></div>
+        <button onclick="topFunction()" id="myBtn">Top</button>
+        <br><br><br><br><br><br>
+        <div id="resume"> </div>
+        <br><br><br><br><br><br>
+        <section>
+            <h2 style="font-size: 40px;"><img src="image/x1.png" alt="돋보기이미지" height="40px" width="40px">이력서</h2>
+            <hr><br>
+            <table>
+                <caption>학력사항</caption>
+                <thead>
+                    <tr>
+                        <th>구분</th>
+                        <th>학교명</th>
+                        <th>전공</th>
+                        <th>재학기간</th>
+                        <th>학점</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>고등학교</td>
+                        <td>와부고등학교</td>
+                        <td>이공계열</td>
+                        <td>2015.03 - 2017.12</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>대학교</td>
+                        <td>충북대학교</td>
+                        <td>소프트웨어학과</td>
+                        <td>2019.03 - 현재</td>
+                        <td>4.16/4.5</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br><br>
+            <table>
+                <caption>활동</caption>
+                <thead>
+                    <tr>
+                        <th>기간</th>
+                        <th>활동 및 경력내용</th>
+                        <th>활동 구분</th>
+                        <th>기관 및 장소 근무지</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2019.03 - 2019.12</td>
+                        <td> 알고리즘 학술동아리 샘마루 활동 <br> (부원)</td>
+                        <td> 동아리</td>
+                        <td>충북대학교 학과동 동아리실</td>
+                    </tr>
+                    <tr>
+                        <td>2020.03 - 2021.12</td>
+                        <td>해군 체계관리 전산병 근무</td>
+                        <td> 군복무 </td>
+                        <td> 해군본부 </td>
+                    </tr>
+                    <tr>
+                        <td>2022.03 - 현재</td>
+                        <td> 리눅스 학술동아리 TUX 활동<br>(부원)</td>
+                        <td> 동아리</td>
+                        <td>충북대학교 학과동 동아리실</td>
+                    </tr>
+                    <tr>
+                        <td>2022.09 - 2022.12</td>
+                        <td> CEDC 글로벌 캡스톤 디자인 경진대회</td>
+                        <td> 경진대회</td>
+                        <td> CEDC</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br><br>
+            <table>
+                <caption>수상경력</caption>
+                <thead>
+                    <tr>
+                        <th>대회</th>
+                        <th>날짜</th>
+                        <th>수상</th>
+                        <th>진행주체</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>CEDC 글로벌 캡스톤 디자인 경진대회</td>
+                        <td>2022.12.17</td>
+                        <td>Bronze award</td>
+                        <td>CEDC</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br><br>
+            <table>
+                <caption>병역</caption>
+                <thead>
+                    <tr>
+                        <th>기간</th>
+                        <th>군필</th>
+                        <th>계급</th>
+                        <th>병과</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2020.03 - 2021.12</td>
+                        <td>대한해군 만기전역</td>
+                        <td>병장</td>
+                        <td>전산병</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br><br>
+        </section>
+        <div id="skills"></div><br><br></div><br><br><br><br>
+        <!-- 보유기술---------------------------------------------------- -->
+        <section>
+            <h2 style="font-size: 40px;"><img src="image/x2.png" alt="돋보기이미지" height="40px" width="40px">보유 기술</h2>
+            <hr><br><br><br>
+            <ul style="list-style: circle;">
+                <li style="font-size:30px ; list-style: none;"><strong>Python3</strong></li><br>
+                <li>알고리즘 문제 해결 방식으로 Python 3를 사용해 여러가지 문제를 해결했습니다.</li>
+                <li>Python 외부라이브러리인 Pygame으로 공포게임 프로젝트를 진행했습니다.</li>
+            </ul>
+            <br><br>
+            <ul style="list-style: circle;">
+                <li style="font-size:30px; list-style: none;"><strong>Android</strong></li><br>
+                <li>안드로이드 앱 개발 언어 자바 문법에 이해도가 있습니다.</li>
+                <li>자바 기반 안드로이드 프론트엔드 개발능력이 있습니다.</li>
+                <li>장애인을 위한 편의시설 제공 앱개발 프로젝트에 프론트엔드로 참여한 경험이 있습니다.</li>
+            </ul>
+            <br><br>
+            <ul style="list-style: circle;">
+                <li style="font-size:30px ; list-style: none;"><strong>Spring Boot</strong></li><br>
+                <li>웹 백엔드 개발을 위한 Spring boot 인프런강의를 수강하며 공부하고 있습니다.</li>
+            </ul>
+        </section>
+        <br><br><br><br><br><br>
+        <!-- 프로젝트---------------------------------------------------- -->
+        <div id="projects"></div><br><br><br><br><br><br>
+        <section>
+            <h2 style="font-size: 40px;"><img src="image/x3.png" alt="돋보기이미지" height="40px" width="40px">프로젝트</h2>
+            <hr><br><br>
+            <ul>
+                <!-- 프로젝트 1 -->
+                <li>
+                    <h2 style="font-size: 30px;">Room Escape</h2>
+                    <img src="image/p1-1.png" alt="프로젝트 1" style="width: 100%;">
+                    <img src="image/p1-2.png" alt="프로젝트 1" style="width: 100%;">
+                    <ul style="list-style: circle;"><br>
+                        <li style="font-size:20px ; list-style: none;"><strong>요약</strong></li>
+                        <li>방탈출 형식의 공포게임입니다.</li>
+                        <li>Python라이브러리인 Pygame으로 개발했으며 PC게임입니다.</li>
+                        <li>충북대학교 2학년 1학기 오픈소스 기초프로젝트로 진행하였습니다.</li>
+                    </ul>
+                    <ul style="list-style: circle;"><br>
+                        <li style="font-size:20px ; list-style: none;"><strong>팀소개 / 내 역할</strong></li>
+                        <li>19학번 4명이 함께 진행하였습니다.</li>
+                        <li>게임의 기본적인 동작 구현 / 상호작용 구현 </li>
+                    </ul>
+                    <ul style="list-style: circle;"><br>
+                        <li style="font-size:20px ; list-style: none;"><strong>개발기간</strong></li>
+                        <li>2020.03 - 2021.12</li>
+                    </ul>
+                    <ul style="list-style: circle;"><br>
+                        <li style="font-size:20px ; list-style: none;"><strong>github링크</strong></li>
+                        <li><a class="check" target="_blank"
+                                href="https://github.com/Proverbs13/Room_Escape.git">https://github.com/Proverbs13/Room_Escape.git</a>
+                        </li>
+                    </ul> <br><br><br><br><br><br>
+                </li>
+                <!-- 프로젝트 2 -->
+                <li>
+                    <h2 style="font-size: 30px;">The Bridge</h2>
+                    <div style="display: flex; justify-content: space-between;">
+                        <img src="image/p2-1.jpg" alt="프로젝트 2" style="width: 30%;">
+                        <img src="image/p2-2.jpg" alt="프로젝트 2" style="width: 30%;">
+                        <img src="image/p2-3.jpg" alt="프로젝트 2" style="width: 30%;">
+                    </div>
+                    <div style="display: flex; justify-content: space-between;">
+                        <img src="image/p2-4.jpg" alt="프로젝트 2" style="width: 30%;">
+                        <img src="image/p2-5.jpg" alt="프로젝트 2" style="width: 30%;">
+                        <img src="image/p2-6.jpg" alt="프로젝트 2" style="width: 30%;">
+                    </div>
+                    <ul style="list-style: circle;"><br>
+                        <li style="font-size:20px ; list-style: none;"><strong>요약</strong></li>
+                        <li>장애인들을 위한 편의시설 제공 어플리케이션입니다.</li>
+                        <li>자바 기반 안드로이드로 개발하였습니다.</li>
+                        <li>시각장애인을 위해서 tts/stt 기술을 이용해 음성인식 기술을 지원합니다.</li>
+                        <li>충북대학교 2학년 2학기 오픈소스 개발프로젝트로 진행하였습니다.</li>
+                        <li>글로벌 캡스톤 디자인 경진대회CEDC에 해당주제로 참여했습니다.</li>
+                    </ul>
+                    <ul style="list-style: circle;"><br>
+                        <li style="font-size:20px ; list-style: none;"><strong>팀소개 / 내 역할</strong></li>
+                        <li>19학번 4명이 함께 진행하였습니다.</li>
+                        <li>프론트엔드 개발 / 시각장애인모드(음성인식) 개발 / 데이터 리스트시각화 작업 </li>
+                    </ul>
+                    <ul style="list-style: circle;"><br>
+                        <li style="font-size:20px ; list-style: none;"><strong>개발기간</strong></li>
+                        <li>2022.03 - 2021.06</li>
+                    </ul>
+                    <ul style="list-style: circle;"><br>
+                        <li style="font-size:20px ; list-style: none;"><strong>github링크</strong></li>
+                        <li><a class="check" target="_blank"
+                                href="https://github.com/beomsun0829/CBNU_OpenSource_2022_JAVA.git">https://github.com/beomsun0829/CBNU_OpenSource_2022_JAVA.git</a>
+                        </li>
+                    </ul> <br><br><br><br>
+                </li>
+                <!-- 프로젝트 3 -->
+                <li>
+                    <h2 style="font-size: 30px;"> Three.js_Project_Oldstation</h2>
+                    <img src="image/p3-1.png" alt="프로젝트 3" style="width: 100%;">
+                    <img src="image/p3-2.png" alt="프로젝트 3" style="width: 100%;">
+                    <img src="image/p3-3.png" alt="프로젝트 3" style="width: 100%;">
+                    <ul style="list-style: circle;"><br>
+                        <li style="font-size:20px ; list-style: none;"><strong>요약</strong></li>
+                        <li>three.js 를 이용해 만든 컴퓨터 그래픽스 프로젝트 입니다</li>
+                        <li>각종 요소들과 애니메이션을 구현했습니다.</li>
+                        <li>충북대학교 2학년 2학기 컴퓨터그래픽스 프로젝트 과제로 진행하였습니다.</li>
+                    </ul>
+                    <ul style="list-style: circle;"><br>
+                        <li style="font-size:20px ; list-style: none;"><strong>팀소개 / 내 역할</strong></li>
+                        <li>혼자서 진행하였습니다.</li>
+                        <li>각종 요소 생성및 상호작용, 빛, 배경, 카메라설정 / 애니메이션 설정</li>
+                    </ul>
+                    <ul style="list-style: circle;"><br>
+                        <li style="font-size:20px ; list-style: none;"><strong>개발기간</strong></li>
+                        <li>2022.09 - 2022.12</li>
+                    </ul>
+                    <ul style="list-style: circle;"><br>
+                        <li style="font-size:20px ; list-style: none;"><strong>github링크</strong></li>
+                        <li><a class="check" target="_blank"
+                                href="https://github.com/Proverbs13/Three.js_project_oldstation.git">https://github.com/Proverbs13/Three.js_project_oldstation.git</a>
+                        </li>
+                    </ul> <br><br><br><br>
+                </li>
+            </ul>
+        </section>
+        <br><br><br><br><br><br>
+    </main>
+    <footer>
+        <p>ichan0318@naver.com</p>
+        <p>&copy; 2023. 이찬의 포트폴리오.
+</body>
+</html>
